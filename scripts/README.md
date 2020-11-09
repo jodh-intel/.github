@@ -25,3 +25,20 @@ Lists all available options:
 ```sh
 $ pr-porting-checks.sh -h
 ```
+
+## Find porting PRs
+
+Script to find port PRs. Run from the top-level directory of a repository with
+no arguments to look for all back and forward port PRs.
+
+See the
+[porting documentation](https://github.com/kata-containers/community/blob/master/CONTRIBUTING.md#porting)
+for further details.
+
+### Full details
+
+Lists all available options:
+
+```sh
+$ kata-github-find-porting-prs.sh -h
+```
